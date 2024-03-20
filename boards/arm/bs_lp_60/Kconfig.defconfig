@@ -1,13 +1,13 @@
-# Copyright (c) 2020 Pete Johanson
+# Copyright (c) 2024 Cole Smith
 # SPDX-License-Identifier: MIT
 
-if BOARD_TECHNIKABLE
+if BOARD_BS_LP_60
 
 config BOARD
-	default "technikable"
+	default "bs_lp_60"
 
 config ZMK_KEYBOARD_NAME
-	default "Technikable"
+	default "bs_lp_60"
 
 if USB
 
@@ -28,4 +28,4 @@ config ZMK_BLE
 config ZMK_USB
 	default y
 
-endif # BOARD_TECHNIKABLE
+endif # BOARD_BS_LP_60

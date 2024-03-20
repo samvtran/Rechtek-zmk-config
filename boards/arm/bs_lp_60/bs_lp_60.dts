@@ -9,8 +9,8 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 
 / {
-	model = "technikable";
-	compatible = "petejohanson,technikable";
+	model = "bs_lp_60";
+	compatible = "petejohanson,bs_lp_60";
 	chosen {
 		zephyr,code-partition = &code_partition;
 		zephyr,sram = &sram0;
