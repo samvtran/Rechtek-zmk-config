@@ -1,2 +1,3 @@
 include:
   - board: bs_lp_60
+    snippet: zmk-usb-logging
