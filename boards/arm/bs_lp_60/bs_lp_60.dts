@@ -30,10 +30,11 @@
 	};
 
 	vbatt: vbatt {
-		compatible = "zmk,battery-voltage-divider";
-		io-channels = <&adc 7>;
-		output-ohms = <2000000>;
-		full-ohms = <(2000000 + 820000)>;
+		compatible = "zmk,battery-nrf-vddh";
+		//compatible = "zmk,battery-voltage-divider";
+		//io-channels = <&adc 7>;
+		//output-ohms = <2000000>;
+		//full-ohms = <(2000000 + 820000)>;
 	};
 
 	ext-power {
